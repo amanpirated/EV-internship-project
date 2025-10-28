@@ -6,10 +6,29 @@ Technology: Generative AI
 Dataset: Electric Vehicle Analytics Dataset.
 Electric Vehicle dataset with performance, charging, cost, and battery metrics.
 
-Problem statement: Using the provided EV dataset, develop AI-driven models to predict key outcomes (e.g. battery state-of-health, charging cost, resale value) and to optimize performance and cost-efficiency
+Problem statement: Using the provided EV dataset, develop AI-driven models to predict key outcomes (e.g. battery state-of-health, charging cost, resale value) and to optimize performance and cost-efficiency.
+
+Proposed Solution:
+
+Predictive Dashboard (Best for Internship)
+
+🎯 Final Output: An interactive web dashboard (using Streamlit or Dash)
+where the user enters EV details (like model, mileage, charge cycles, avg temperature)
+and gets:
+
+🔋 Predicted Battery Health (%)
+
+⚡ Estimated Monthly Charging Cost (₹/$)
+
+📊 Feature importance (what affects cost the most)
+
+In particular, one might focus on predicting battery degradation (SOH) and charging costs to enable proactive maintenance and cost savings
+. For example, accurately forecasting EV battery health helps schedule maintenance before failures and extends battery life
+. Likewise, modeling how electricity price and usage affect monthly charging cost can guide smart charging strategies. Other problem facets include estimating total cost of ownership (maintenance + insurance + charging) or predicting resale value from features like battery health and mileage.
 
 Model Selection: Machine Learning 
 
 Learning Model: 1.Supervised learning(Supervised learning uses input features (X) to predict a known output (y)).
                 2.Regression: Linear Regression (data has linear relationships (battery health decreases steadily with charge cycles, temperature, etc.),
+
 → Linear Regression is simple, interpretable, and perfect for internship-level demonstration.)
