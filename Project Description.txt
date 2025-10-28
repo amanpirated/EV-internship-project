@@ -1,0 +1,15 @@
+Project Description : 
+
+Theme: Electric Vehicle
+Technology: Generative AI
+
+Dataset: Electric Vehicle Analytics Dataset.
+Electric Vehicle dataset with performance, charging, cost, and battery metrics.
+
+Problem statement: Using the provided EV dataset, develop AI-driven models to predict key outcomes (e.g. battery state-of-health, charging cost, resale value) and to optimize performance and cost-efficiency
+
+Model Selection: Machine Learning 
+
+Learning Model: 1.Supervised learning(Supervised learning uses input features (X) to predict a known output (y)).
+                2.Regression: Linear Regression (data has linear relationships (battery health decreases steadily with charge cycles, temperature, etc.),
+→ Linear Regression is simple, interpretable, and perfect for internship-level demonstration.)
